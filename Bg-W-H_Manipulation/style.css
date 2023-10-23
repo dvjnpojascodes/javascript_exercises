@@ -1,0 +1,26 @@
+*,html {
+    margin:0;
+    padding: 0;
+}
+#container {
+    text-align: center;
+    padding-top: 7em;
+}
+
+#modify {
+    margin: 0 auto;
+}
+
+select{
+    width: 5em;
+    height: 2em;
+    margin: 0 10px;
+    border: 1px solid bisque;
+    outline: 0;
+}
+
+button {
+    background-color: bisque;
+    padding: 0.3em 1em;
+    border: 1px solid bisque;
+}

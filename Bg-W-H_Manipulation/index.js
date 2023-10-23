@@ -11,6 +11,7 @@ function modifyBox() {
     box.style.backgroundColor = selectedBg;
     box.style.width = selectedWidth+"px";
     box.style.height = selectedHeight+"px";
+    selectOption.style.border = selectedBg;
 }
 
 document.getElementById('set').addEventListener('click', modifyBox);
